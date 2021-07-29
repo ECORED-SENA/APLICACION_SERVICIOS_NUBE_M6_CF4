@@ -14,13 +14,13 @@
             img.imagen_flotante_animada(src="@/assets/curso/tema1/1.svg")
         .col-lg-8
           .bloque-texto-a__texto.p-4.caja_escalada_hover
-            p Se inicia con una estructura de proyecto MEAN (Mongo, Express, Angular y Node.js) para el proyecto que abarca tanto el Front-end como el Backend. Para la instalación de las primeras herramientas como Node.js y Express en la sección material complementario de este documento encontrará la guía de instalación de Node.js y de Express.  A continuación, se incluye una figura que representa de manera general el proceso de codificación de software.
+            p Se inicia con una estructura de proyecto MEAN (Mongo, Express, Angular y Node.js) para el proyecto que abarca tanto el Front-end como el Backend. Para la instalación de las primeras herramientas como Node.js y Express en la sección material complementario de este documento encontrará la guía de instalación de Node.js y de Express.  A continuación, se incluye una figura que representa de manera general el proceso de codificación de #[em software].
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 2] Codificación software
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 2] #[em Codificación software]
 
     figure.mt-5.col-md-9.m-auto(data-aos="fade-up")
       img.image_floating(src="@/assets/curso/tema1/2.svg")
-    figcaption.mt-4.col-md-5(data-aos="fade-up") Nota. Codificación en lenguaje de desarrollo de software.
+    figcaption.mt-4.col-md-5(data-aos="fade-up") Nota. Codificación en lenguaje de desarrollo de #[em software].
 
     br
     .mt-5.titulo-segundo#t_1_1
@@ -28,7 +28,7 @@
 
     p(data-aos="fade-up") Se utiliza el Visual Studio Code (VS Code) con la siguiente estructura de directorios que se muestra en la figura 3 para el Backend.
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 3] Estructura de directorios Backend
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 3] #[em Estructura de directorios Backend]
 
     figure.col-md-5.m-auto.mt-5
       img.image_floating(data-aos="fade-left" src="@/assets/curso/tema1/3.svg")
@@ -36,12 +36,12 @@
 
     p.mt-5(data-aos="fade-up") Como se observa en la figura anterior se crea la carpeta GESTION-EMPLEADOS, que será la principal o raíz del proyecto. Dentro de esta se crea la carpeta backend, en la cual se crean otros directorios y archivos como se alcanza a apreciar en la figura. De tal forma, que esta será la estructura que apoyará el desarrollo de la base de la aplicación.
 
-    p.mt-3(data-aos="fade-up") Una vez creadas las carpetas y archivos como lo son controllers, models, routes, database.js e index.js, se abre la terminal del VS Code y se digita el siguiente comando para crear un proyecto Node.js, como se muestra en el ejemplo de la siguiente figura:
+    p.mt-3(data-aos="fade-up") Una vez creadas las carpetas y archivos como lo son #[em controllers, models, routes], database.js e index.js, se abre la terminal del VS Code y se digita el siguiente comando para crear un proyecto Node.js, como se muestra en el ejemplo de la siguiente figura:
 
     p.mt-5
       span.h4.p-3.text-white.text-center(data-aos="fade-up" style="background-color:#21214B;border-radius:10px;") npm init --yes
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 4] Terminal de VS Code
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 4] #[em Terminal de VS Code]
 
     figure.mt-5.col-md-10.m-auto
       img.image_floating(data-aos="fade-right" src="@/assets/curso/tema1/4.svg")
@@ -56,7 +56,7 @@
     .mt-5.titulo-segundo#t_1_2
       h2 1.2 Desarrollo del index.js
 
-    p(data-aos="fade-up") El siguiente paso es iniciar con el desarrollo del archivo principal del Backend, que se llama index.js como se muestra en la siguiente figura, (puede descargar el contenido de estas instrucciones en el archivo index.js disponible en la carpeta anexos).
+    p(data-aos="fade-up") El siguiente paso es iniciar con el desarrollo del archivo principal del Backend, que se llama index.js como se muestra en la siguiente figura, (puede descargar el contenido de estas instrucciones en el archivo index.js disponible en la carpeta de anexos).
 
     .col-md-4.mt-5(data-aos="fade-right")
         a.anexo.mb-4(:href="obtenerLink('downloads/index.js')" target="_blank" download)
@@ -66,7 +66,7 @@
             p Descargar archivo
             p #[strong index.js]
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 5] Estructura index.js
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 5] #[em Estructura index.js]
 
     .mt-5.p-5(style="background-color:#21214B" data-aos="fade-up")
       p.text-white.mb-0 const express = require('express') 
@@ -119,7 +119,7 @@
             p Descargar archivo
             p #[strong package.json]
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 6] Estructura package.json
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 6] #[em Estructura package.json]
 
     .mt-5.p-5(style="background-color:#21214B" data-aos="fade-up")
       p.text-white.mb-0 {
@@ -162,11 +162,11 @@
 
     br
     .mt-5.titulo-segundo#t_1_3
-      h2 1.3 Configuración e instalación de la bbase de datos MongoDB
+      h2 1.3 Configuración e instalación de la base de datos MongoDB
 
     p(data-aos="fade-up") A continuación, se realizará la conexión de la aplicación del servidor a la base de datos, por lo que se inicia a configurar y a instalar los recursos necesarios antes de iniciar a desarrollar. En ese sentido, se instala MongoDB de manera persistente en el equipo de desarrollo, para lo cual se deja información para su instalación en la sección material complementario de este documento. La siguiente figura representa de manera general el diagrama entidad-relación de una base de datos.
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 7] Diagrama entidad-relación
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 7] #[em Diagrama entidad-relación]
 
     figure.mt-5.col-md-7.m-auto
       img.image_floating(src="@/assets/curso/tema1/5.svg" data-aos="fade-right")
@@ -175,7 +175,7 @@
 
     p.mt-5(data-aos="fade-up") En la siguiente figura se muestra la imagen que representa el inicio del proceso de instalación de MongoDB.
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 8] MongoDB
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 8] #[em MongoDB]
 
     figure.mt-5.col-md-8.m-auto
       img.image_floating(src="@/assets/curso/tema1/6.svg" data-aos="fade-right")
@@ -184,7 +184,7 @@
 
     p.mt-5(data-aos="fade-up") De igual manera, a nivel opcional se instala la extensión de MongoDB dentro del entorno de VS Code, permitiendo tener una integralidad para el desarrollo, estas herramientas facilitan la celeridad en el proceso de construcción de sistemas de software. Por lo tanto, en el material de apoyo se dejará información para acceder a la guía para la instalación de esta extensión, denominada extensión VS Code y MongoDB.  La siguiente figura muestra de qué manera se visualiza dicha extensión dentro del entorno de desarrollo.
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 9] Extensión MongoDB
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 9] #[em Extensión MongoDB]
 
     figure.mt-5.col-md-6.m-auto
       img.image_floating(src="@/assets/curso/tema1/7.svg" data-aos="fade-right")
@@ -210,7 +210,7 @@
             p Descargar archivo
             p #[strong database.js]
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 10] Estructura database.js
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 10] #[em Estructura database.js]
 
     .mt-4.p-5(style="background-color:#21214B" data-aos="fade-up")
       p.text-white.mb-0 const mongoose = require(‘mongoose’); 
@@ -228,7 +228,7 @@
 
     p.mt-3(data-aos="fade-up") De manera adicional se puede observar que en el archivo index.js, se invoca o llama el archivo database.js en el cual se especifica que lo que se requiere es la conexión. En este sentido, solo resta probar si la conexión está activa, por lo que se inicia el servidor con la línea de comando npm run dev, vista anteriormente. A continuación, se muestra en la figura el resultado de la terminal del VS Code:
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 11] Respuesta de la terminal
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 11] #[em Respuesta de la terminal]
 
     figure.mt-4.col-md-5.m-auto
       img.image_floating(src="@/assets/curso/tema1/8.svg" data-aos="fade-right")
@@ -249,7 +249,7 @@
             p Descargar archivo
             p #[strong empleado.route.js]
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 12] Estructura ejemplo empleado.route.js
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 12] #[em Estructura ejemplo empleado.route.js]
 
     .mt-4.p-5.col-md-10(style="background-color:#21214B" data-aos="fade-up")
       p.text-white.mb-0 /**
@@ -278,7 +278,7 @@
 
     p.mt-5(data-aos="fade-up") Al hacer el llamado en el servidor se vería de la siguiente manera:
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 13] Respuesta del servidor
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 13] #[em Respuesta del servidor]
 
     figure.mt-4.col-md-6.m-auto
       img.image_floating(src="@/assets/curso/tema1/9.svg" data-aos="fade-right")
@@ -295,7 +295,7 @@
             p Descargar archivo
             p #[strong empleado.js]
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 14] Estructura empleado.js 
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 14] #[em Estructura empleado.js]
 
     .mt-4.p-5.col-md-10(style="background-color:#21214B" data-aos="fade-up")
       p.text-white.mb-0 const mongoose = require(‘mongoose’);
@@ -326,7 +326,7 @@
             p Descargar archivo
             p #[strong empleado.controller.js]
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 15] Estructura controlador empleado
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 15] #[em Estructura controlador empleado]
 
     .mt-4.p-5.col-md-10(style="background-color:#21214B" data-aos="fade-up")
       p.text-white.mb-0 /**
@@ -390,7 +390,7 @@
 
       p.mt-3(data-aos="fade-up") Finalmente, lo que se hace al crear un módulo es exportarlo para que sea utilizado en cualquier parte de la aplicación. A continuación, se definen las rutas, por lo que se configura y desarrolla la lógica de esta sección en el archivo empleados.routes.js dentro de la carpeta routes (puede descargar el contenido de estas instrucciones en el archivo empleados.routes.js disponible en la carpeta anexos).
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 16] Código de la ruta empleado
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 16] #[em Código de la ruta empleado]
 
     .mt-4.p-5.col-md-10(style="background-color:#21214B" data-aos="fade-up")
       p.text-white.mb-0 /**
@@ -421,7 +421,7 @@
 
     p.mt-3(data-aos="fade-up") Se inicia insertando datos, por lo que utilizará el método POST, el cual llamará a la ruta para crear empleados.
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 17] Pruebas con Postman
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 17] #[em Pruebas con Postman]
 
     figure.mt-4.col-md-7.m-auto
       img.image_floating(src="@/assets/curso/tema1/10.svg" data-aos="fade-right")
@@ -434,7 +434,7 @@
 
     p.mt-3(data-aos="fade-up") En la siguiente figura se presenta la imagen que representa la interfaz gráfica de MongoDB y el resultado de verificación de la creación de la base de datos.
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 18] Panel MongoDB
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 18] #[em Panel MongoDB]
 
     figure.mt-4.col-md-5.m-auto
       img.image_floating(src="@/assets/curso/tema1/11.svg" data-aos="fade-right")
@@ -443,7 +443,7 @@
 
     p.mt-5(data-aos="fade-up") La siguiente figura muestra el resultado de la verificación de un registro de empleado almacenado en MongoDB.
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 19]  Registro de empleado almacenado en MongoDB 
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 19] #[em Registro de empleado almacenado en MongoDB]
 
     figure.mt-4.col-md-8.m-auto
       img.image_floating(src="@/assets/curso/tema1/12.svg" data-aos="fade-right")
@@ -454,7 +454,7 @@
 
     p.mt-3(data-aos="fade-up") Hasta este punto se ha realizado el desarrollo del Backend, por lo que hasta el momento se tiene la base de datos lista para poder generar ahora la construcción del Front-end, el cual será el que “dialogará” con el servidor. De esta forma se presenta a continuación una figura que ilustra la estructura general del proyecto.
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 20] Resumen estructura del proyecto web
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 20] #[em Resumen estructura del proyecto web]
 
     figure.mt-4
       img.image_floating(src="@/assets/curso/tema1/13.svg" data-aos="fade-right")

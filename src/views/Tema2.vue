@@ -18,7 +18,7 @@
 
     p.mt-5(data-aos="fade-up") En la siguiente figura se muestra una representación gráfica de ejemplo de un Front-end.
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 21] Ejemplo interfaz gráfica
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 21] #[em Ejemplo interfaz gráfica]
 
     figure.mt-5.col-md-9.m-auto(data-aos="fade-up")
       img.image_floating(src="@/assets/curso/tema2/2.svg")
@@ -34,7 +34,7 @@
     p.mt-5
       span.h4.p-3.text-white.text-center(data-aos="fade-up" style="background-color:#21214B;border-radius:10px;") npm install -g @angular/cli
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 22]  Instalación de Angular CLI
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 22]  #[em Instalación de Angular CLI]
 
     figure.mt-4.col-md-9.m-auto
       img.image_floating(data-aos="fade-right" src="@/assets/curso/tema2/3.svg")
@@ -47,7 +47,7 @@
 
     p.mt-5(data-aos="fade-up") El resultado en la estructura de directorios del proyecto se muestra en la siguiente figura:
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 23] Estructura de directorios del proyecto
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 23] #[em Estructura de directorios del proyecto]
 
     figure.mt-4.col-md-5.m-auto
       img.image_floating(data-aos="fade-right" src="@/assets/curso/tema2/4.svg")
@@ -62,7 +62,7 @@
 
     p.mt-3(data-aos="fade-up") Una vez dentro de la carpeta #[strong Front-end] se ejecuta el comando #[strong ng serve], por lo que ejecuta un servidor de desarrollo para Angular. En ese sentido, el servidor se inicializa en el puerto 4200 (http://localhost:4200/), como se muestra en la siguiente figura:
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 24] Estado servidor Front-end
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 24] #[em Estado servidor Front-end]
 
     figure.mt-4.col-md-11.m-auto
       img.image_floating(data-aos="fade-right" src="@/assets/curso/tema2/5.svg")
@@ -76,7 +76,7 @@
 
     p.mt-3(data-aos="fade-up") De manera adicional, para dar coherencia al proyecto, dentro de la carpeta app se crean 3 carpetas más, que son models, services y components para tener definido el proyecto, tal como se muestra en la siguiente figura:
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 25] Estructura de directorios
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 25] #[em Estructura de directorios]
 
     figure.mt-4.col-md-4.m-auto
       img.image_floating(data-aos="fade-right" src="@/assets/curso/tema2/6.svg")
@@ -109,13 +109,13 @@
 
     p.mt-5(data-aos="fade-up") Para mayor precisión con relación a las instrucciones ejecutadas, en las siguientes figuras se muestra la evidencia de las operaciones realizadas:
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 26] Salida terminal VS Code
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 26] #[em Salida terminal VS Code]
 
     figure.mt-4.col-md-11.m-auto
       img.image_floating(data-aos="fade-right" src="@/assets/curso/tema2/7.svg")
     figcaption.mt-3.col-md-6(data-aos="fade-up")  Nota. Ejemplo de generación de código a través de la terminal de VS Code.
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 27] Componentes generados automáticamente
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 27] #[em Componentes generados automáticamente]
 
     figure.mt-4.col-md-5.m-auto
       img.image_floating(data-aos="fade-right" src="@/assets/curso/tema2/8.svg")
@@ -135,7 +135,7 @@
             p Descargar archivo
             p #[strong index.html]
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 28] Incorporación de los CDN de Materialize
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 28] #[em Incorporación de los CDN de Materialize]
 
     .mt-4.p-5.col-md-11(style="background-color:#21214B" data-aos="fade-up")
       p.text-white.mb-0 &lt;!doctype html&gt;
@@ -171,7 +171,7 @@
             p Descargar archivo
             p #[strong app.component.html]
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 29] Estructura app.component.html
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 29] #[em Estructura app.component.html]
 
     .mt-4.p-5.col-md-11(style="background-color:#21214B" data-aos="fade-up")
       p.text-white.mb-0  &lt;nav class=“nav-wrapper blue”&gt;
@@ -203,7 +203,7 @@
             p Descargar archivo
             p #[strong app.modules.ts]
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 30] Código del archivo app module
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 30] #[em Código del archivo app module]
 
     .mt-4.p-5.col-md-11(style="background-color:#21214B" data-aos="fade-up")
       p.text-white.mb-0 import { NgModule } from ‘@angular/core’;
@@ -248,7 +248,7 @@
             p Descargar archivo
             p #[strong empleado.ts]
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 31] Código del modelo empleado
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 31] #[em Código del modelo empleado]
 
     .mt-4.p-5.col-md-11(style="background-color:#21214B" data-aos="fade-up")
       p.text-white.mb-0 export class Empleado {
@@ -286,7 +286,7 @@
             p Descargar archivo
             p #[strong empleado.service.ts]
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 32] Código del servicio empleado
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 32] #[em Código del servicio empleado]
 
     .mt-4.p-5.col-md-11(style="background-color:#21214B" data-aos="fade-up")
       p.text-white.mb-0 import { Injectable } from ‘@angular/core’;
@@ -344,7 +344,7 @@
             p Descargar archivo
             p #[strong empleados.components.ts]
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 33] Código del componente empleados
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 33] #[em Código del componente empleados]
 
     .mt-4.p-5.col-md-11(style="background-color:#21214B" data-aos="fade-up")
       p.text-white.mb-0 import { Component, OnInit } from ‘@angular/core’;
@@ -401,7 +401,7 @@
             p Descargar archivo
             p #[strong empleados.component.html]
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 34] Código HTML del componente empleado
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 34] #[em Código HTML del componente empleado]
 
     .mt-4.p-5.col-md-11(style="background-color:#21214B" data-aos="fade-up")
       p.text-white.mb-0  &lt;div class=“container”&gt;
@@ -457,15 +457,23 @@
 
     p.mt-4(data-aos="fade-up") #[strong Una muestra de la interfaz de la aplicación se ilustra en la siguiente figura:]
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 36] Registro empleado
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 35] #[em Registro empleados]
 
     figure.mt-4.col-md-4.m-auto(data-aos="fade-up")
-      img.image_floating(src="@/assets/curso/tema2/9.svg")
+      img.image_floating(src="@/assets/curso/tema2/13.svg")
+    figcaption.mt-4.col-md-5(data-aos="fade-up") Nota. Interfaz formulario de registro de empleados.
+
+    p.mt-5(data-aos="fade-up") En la muestra anterior de la interfaz se ilustra un formulario en el cual se le piden los datos al usuario para el registro de un empleado, es importante observar el uso de los placeholder en cada caja de texto, cuya función es guiar o indicar qué tipo de datos hay que registrar. De esta manera la interfaz quedaría como se muestra en la siguiente figura:
+
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 36] #[em Registro empleado]
+
+    figure.mt-4.col-md-4.m-auto(data-aos="fade-up")
+      img.image_floating(src="@/assets/curso/tema2/14.svg")
     figcaption.mt-4.col-md-5(data-aos="fade-up") Nota. Ejemplo ingreso datos de un empleado.
 
     p.mt-5(data-aos="fade-up") Al momento de dar clic en guardar se almacena la información y se muestra la notificación de Materialize Toast, indicando que el usuario se ha guardado exitosamente y además se limpia el formulario por la función reset(), tal como se puede observar en la figura 37.
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 37]  Notificación Toast de Materialize
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 37]  #[em Notificación Toast de Materialize]
 
     figure.mt-4.col-md-11.m-auto(data-aos="fade-up")
       img.image_floating(src="@/assets/curso/tema2/10.svg")
@@ -473,13 +481,13 @@
 
     p.mt-5(data-aos="fade-up") Para verificar que los datos incorporados en el formulario se hayan almacenado de manera correcta en la base de datos empleado de MongoDB se utilizará el panel de control de la MongoDB, como se muestra en las siguientes figuras:
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 38]  Panel de control de MongoDB
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 38]  #[em Panel de control de MongoDB]
 
     figure.mt-4.col-md-9.m-auto(data-aos="fade-up")
       img.image_floating(src="@/assets/curso/tema2/11.svg")
     figcaption.mt-4.col-md-5(data-aos="fade-up") Nota. Verificación registro de información de empleados.
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 39]  Evidencia de registro en MongoDB
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 39] #[em Evidencia de registro en MongoDB]
 
     figure.mt-4.col-md-8.m-auto(data-aos="fade-up")
       img.image_floating(src="@/assets/curso/tema2/12.svg")

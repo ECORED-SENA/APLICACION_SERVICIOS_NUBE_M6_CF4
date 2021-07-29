@@ -49,4 +49,6 @@ export default {
   filter: drop-shadow(0 5px 15px rgba(0,0,0,0.2))
   transform: translatey(0px)
   animation: float 6s ease-in-out infinite
+.glosario__letra-item__texto p strong
+  font-style: italic
 </style>
