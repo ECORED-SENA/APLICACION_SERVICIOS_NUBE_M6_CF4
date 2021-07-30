@@ -17,7 +17,7 @@
 
     p.mt-5(data-aos="fade-up") #[strong La siguiente figura representa el esquema general de comunicación entre la aplicación (Front-end) y el servidor (Backend).]
 
-    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 1] Esquema Front-end – Backend
+    p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 1] #[em Esquema Front-end – Backend]
 
     figure.mt-5
       img.image_floating(data-aos="fade-up" src="@/assets/curso/introduccion/2.svg")

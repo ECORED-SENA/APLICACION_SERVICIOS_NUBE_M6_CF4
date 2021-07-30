@@ -47,7 +47,7 @@
       img.image_floating(data-aos="fade-right" src="@/assets/curso/tema1/4.svg")
     figcaption.mt-4.col-md-5(data-aos="fade-up") Nota. Terminal de VS Code iniciando proyecto con Node.js.
 
-    p.mt-5(data-aos="fade-up") Una vez creado el proyecto se requiere todas las bondades del framework de Node.js, para lo cual se hace necesario Express, que va a generar una serie de componentes que ayudarán mucho al desarrollo de esta aplicación; por lo tanto, se instala Express con la siguiente línea de comandos desde el terminal del VS Code:
+    p.mt-5(data-aos="fade-up") Una vez creado el proyecto se requiere todas las bondades del #[em framework] de Node.js, para lo cual se hace necesario Express, que va a generar una serie de componentes que ayudarán mucho al desarrollo de esta aplicación; por lo tanto, se instala Express con la siguiente línea de comandos desde el terminal del VS Code:
 
     p.mt-5
       span.h4.p-3.text-white.text-center(data-aos="fade-up" style="background-color:#21214B;border-radius:10px;") npm install express
@@ -99,7 +99,7 @@
     p.mt-5
       span.h4.p-3.text-white.text-center(data-aos="fade-up" style="background-color:#21214B;border-radius:10px;") app.set(‘port’, process.env.PORT || 3000);
 
-    p.mt-5(data-aos="fade-up") De este modo, set es para crear una variable que va a ser accedida desde cualquier parte de la aplicación, por lo que la estructura es la siguiente (nombre var, valor); process es porque cuando se despliegue la app no se va a tener la opción de definir el puerto, sino que el mismo servicio de la nube ayudará a definirlo, en el caso de que el puerto 3000 esté ocupado.
+    p.mt-5(data-aos="fade-up") De este modo, #[em set] es para crear una variable que va a ser accedida desde cualquier parte de la aplicación, por lo que la estructura es la siguiente (nombre var, valor); #[em process] es porque cuando se despliegue la app no se va a tener la opción de definir el puerto, sino que el mismo servicio de la nube ayudará a definirlo, en el caso de que el puerto 3000 esté ocupado.
 
     p.mt-3(data-aos="fade-up") Con el fin de revisar los cambios en el servidor de manera automática se tiene planeada la instalación de algunas herramientas que harán más fácil el desarrollo sobre Node.js, por lo que se instala Nodemon (Vortexbird, 2017) como una utilidad que monitorea de manera constante los cambios en el código fuente que se está desarrollando y de manera automática reinicia el servidor. Por lo tanto, la línea de código utilizada en la terminal de VS Code es:
 
@@ -151,7 +151,7 @@
     p.mt-5
       span.h4.p-3.text-white.text-center(data-aos="fade-up" style="background-color:#21214B;border-radius:10px;") app.use(express.json());
 
-    p.mt-5(data-aos="fade-up") Con el fin de observar la transacción de mensajes por consola se tiene una herramienta útil llamada morgan, que ayuda a mirar en consola lo que el usuario está solicitando. Esta herramienta es opcional para el desarrollo de la aplicación, no obstante se deja la línea de comando para su instalación y utilización:
+    p.mt-5(data-aos="fade-up") Con el fin de observar la transacción de mensajes por consola se tiene una herramienta útil llamada #[em morgan], que ayuda a mirar en consola lo que el usuario está solicitando. Esta herramienta es opcional para el desarrollo de la aplicación, no obstante se deja la línea de comando para su instalación y utilización:
 
     p.mt-5
       span.h4.p-3.text-white.text-center(data-aos="fade-up" style="background-color:#21214B;border-radius:10px;") npm install Morgan
@@ -182,7 +182,7 @@
 
     figcaption.mt-4.col-md-3(data-aos="fade-left") Nota. Panel de control MongoDB.
 
-    p.mt-5(data-aos="fade-up") De igual manera, a nivel opcional se instala la extensión de MongoDB dentro del entorno de VS Code, permitiendo tener una integralidad para el desarrollo, estas herramientas facilitan la celeridad en el proceso de construcción de sistemas de software. Por lo tanto, en el material de apoyo se dejará información para acceder a la guía para la instalación de esta extensión, denominada extensión VS Code y MongoDB.  La siguiente figura muestra de qué manera se visualiza dicha extensión dentro del entorno de desarrollo.
+    p.mt-5(data-aos="fade-up") De igual manera, a nivel opcional se instala la extensión de MongoDB dentro del entorno de VS Code, permitiendo tener una integralidad para el desarrollo, estas herramientas facilitan la celeridad en el proceso de construcción de sistemas de #[em software]. Por lo tanto, en el material de apoyo se dejará información para acceder a la guía para la instalación de esta extensión, denominada extensión VS Code y MongoDB.  La siguiente figura muestra de qué manera se visualiza dicha extensión dentro del entorno de desarrollo.
 
     p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 9] #[em Extensión MongoDB]
 
@@ -239,7 +239,7 @@
     .mt-5.titulo-segundo#t_1_5
       h2 1.5 Configuración de las rutas del proyecto con Node.js
 
-    p(data-aos="fade-up") El siguiente paso es configurar las rutas o URL por donde se van a enviar o recibir los datos, por lo que se crea un archivo llamado empleado.route.js dentro de la carpeta routes (puede descargar el contenido de estas instrucciones en el archivo empleado.route.js disponible en la carpeta anexos). En este primer apartado lo que se quiere es revisar en primera instancia es el funcionamiento de las rutas, por lo que a manera de prueba se tiene el código que se muestra en la siguiente figura:
+    p(data-aos="fade-up") El siguiente paso es configurar las rutas o URL por donde se van a enviar o recibir los datos, por lo que se crea un archivo llamado empleado.route.js dentro de la carpeta #[em routes] (puede descargar el contenido de estas instrucciones en el archivo empleado.route.js disponible en la carpeta anexos). En este primer apartado lo que se quiere es revisar en primera instancia es el funcionamiento de las rutas, por lo que a manera de prueba se tiene el código que se muestra en la siguiente figura:
 
     .col-md-4.mt-4(data-aos="fade-right")
         a.anexo.mb-4(:href="obtenerLink('downloads/empleado.route.js')" target="_blank" download)
@@ -285,7 +285,7 @@
 
     figcaption.mt-4.col-md-3(data-aos="fade-left")  Nota. Vista desde un navegador.
 
-    p.mt-5(data-aos="fade-up") Ya visto un ejemplo del funcionamiento de las rutas es necesario comprender su comportamiento, por lo que cada solicitud debe ir asociada a una ruta, y esta a su vez a un intercambio de información o de datos, es decir, de interacción con la BD. En ese sentido, es más que necesario la construcción del modelo empleado.js con datos específicos para los empleados dentro de la carpeta models (puede descargar el contenido de estas instrucciones en el archivo empleado.js disponible en la carpeta anexos).
+    p.mt-5(data-aos="fade-up") Ya visto un ejemplo del funcionamiento de las rutas es necesario comprender su comportamiento, por lo que cada solicitud debe ir asociada a una ruta, y esta a su vez a un intercambio de información o de datos, es decir, de interacción con la BD. En ese sentido, es más que necesario la construcción del modelo empleado.js con datos específicos para los empleados dentro de la carpeta #[em models] (puede descargar el contenido de estas instrucciones en el archivo empleado.js disponible en la carpeta anexos).
 
     .col-md-4.mt-4(data-aos="fade-right")
         a.anexo.mb-4(:href="obtenerLink('downloads/empleado.js')" target="_blank" download)
@@ -316,7 +316,7 @@
     .mt-5.titulo-segundo#t_1_6
       h2 1.6 Desarrollo de controladores para la API REST
 
-    p(data-aos="fade-up") Una de las mejores prácticas para estructurar una aplicación cuando va en crecimiento es el uso de los controladores. Estos se encargan de definir los métodos y acciones que necesitan las rutas. Por lo tanto, se crea el archivo empleado.controller.js dentro de la carpeta controllers (puede descargar el contenido de estas instrucciones en el archivo empleado.controller.js disponible en la carpeta anexos).
+    p(data-aos="fade-up") Una de las mejores prácticas para estructurar una aplicación cuando va en crecimiento es el uso de los controladores. Estos se encargan de definir los métodos y acciones que necesitan las rutas. Por lo tanto, se crea el archivo empleado.controller.js dentro de la carpeta #[em controllers] (puede descargar el contenido de estas instrucciones en el archivo empleado.controller.js disponible en la carpeta anexos).
 
     .col-md-4.mt-4(data-aos="fade-right")
         a.anexo.mb-4(:href="obtenerLink('downloads/empleado.controller.js')" target="_blank" download)
@@ -380,15 +380,15 @@
     div.mt-5
       p(data-aos="fade-up") Se inicia explicando de manera sucinta el código presentado anteriormente. En primera instancia se requiere el modelo realizado denominado empleado.js, por lo cual se almacena en una constante Empleado.
 
-      p.mt-3(data-aos="fade-up") Por otra parte, en cada uno de los métodos se utilizan funciones nativas y nuevas de JavaScript. En ese sentido, es necesario recordar que antes se utilizaban las funciones de tipo callback, que existían como parámetros de los métodos, después aparecieron las promesas con la función then, pero ahora existen funciones que están dedicadas a realizar de manera más eficiente el procesamiento de los datos y mejorar los tiempos de respuesta como lo son #[strong async] y #[strong await] que hacen parte de la última versión de JavaScript.
+      p.mt-3(data-aos="fade-up") Por otra parte, en cada uno de los métodos se utilizan funciones nativas y nuevas de JavaScript. En ese sentido, es necesario recordar que antes se utilizaban las funciones de tipo #[em callback], que existían como parámetros de los métodos, después aparecieron las promesas con la función #[em then], pero ahora existen funciones que están dedicadas a realizar de manera más eficiente el procesamiento de los datos y mejorar los tiempos de respuesta como lo son #[strong #[em async]] y #[strong #[em await]] que hacen parte de la última versión de JavaScript.
 
-      p.mt-3(data-aos="fade-up") Para el método de #[strong obtener empleados] se utiliza la función async, la cual entrega en formato json todo lo que encuentre de empleados. Por eso se utiliza la función await, porque se espera que se vaya a tardar un poco en esta actividad de buscar. En ese sentido, se utiliza uno de los métodos intrínsecos del modelo Empleado que para este caso es find().
+      p.mt-3(data-aos="fade-up") Para el método de #[strong obtener empleados] se utiliza la función #[em async], la cual entrega en formato #[em json] todo lo que encuentre de empleados. Por eso se utiliza la función #[em await], porque se espera que se vaya a tardar un poco en esta actividad de buscar. En ese sentido, se utiliza uno de los métodos intrínsecos del modelo Empleado que para este caso es #[em find()].
 
-      p.mt-3(data-aos="fade-up") Además, el método de crear empleado tiene una naturaleza similar al anterior, solo que en este método se crea una nueva instancia de empleado #[strong new Empleado]. De esta forma lo que seguiría es guardar ese nuevo registro con #[strong save()]. Es importante anotar que hasta el momento no se ha creado la base de datos en MongoDB, pero apenas se almacena un registro se crea la base de datos.
+      p.mt-3(data-aos="fade-up") Además, el método de crear empleado tiene una naturaleza similar al anterior, solo que en este método se crea una nueva instancia de empleado #[strong #[em new] Empleado]. De esta forma lo que seguiría es guardar ese nuevo registro con #[strong #[em save()]]. Es importante anotar que hasta el momento no se ha creado la base de datos en MongoDB, pero apenas se almacena un registro se crea la base de datos.
 
-      p.mt-3(data-aos="fade-up") Para el método de editar empleado presenta una sintaxis interesante, en primer lugar se escribe de otra forma para capturar el id del usuario que se quiere actualizar { id }, además crea una constante #[strong empleadoEdit] para pasarle los datos traídos del cliente y finalmente se utiliza await, para dar una espera en la acción de encontrar por id y actualizar a través de la función set, que se utilizará para modificar los datos en última instancia.
+      p.mt-3(data-aos="fade-up") Para el método de editar empleado presenta una sintaxis interesante, en primer lugar se escribe de otra forma para capturar el id del usuario que se quiere actualizar { id }, además crea una constante #[strong empleadoEdit] para pasarle los datos traídos del cliente y finalmente se utiliza #[em await], para dar una espera en la acción de encontrar por id y actualizar a través de la función set, que se utilizará para modificar los datos en última instancia.
 
-      p.mt-3(data-aos="fade-up") Finalmente, lo que se hace al crear un módulo es exportarlo para que sea utilizado en cualquier parte de la aplicación. A continuación, se definen las rutas, por lo que se configura y desarrolla la lógica de esta sección en el archivo empleados.routes.js dentro de la carpeta routes (puede descargar el contenido de estas instrucciones en el archivo empleados.routes.js disponible en la carpeta anexos).
+      p.mt-3(data-aos="fade-up") Finalmente, lo que se hace al crear un módulo es exportarlo para que sea utilizado en cualquier parte de la aplicación. A continuación, se definen las rutas, por lo que se configura y desarrolla la lógica de esta sección en el archivo empleados.routes.js dentro de la carpeta #[em routes] (puede descargar el contenido de estas instrucciones en el archivo empleados.routes.js disponible en la carpeta anexos).
 
     p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 16] #[em Código de la ruta empleado]
 
@@ -411,7 +411,7 @@
 
     p.mt-5(data-aos="fade-up") Con respecto al código anterior se observa que se requiere el uso del controlador, por lo que se almacena en una constante llamada empleadoCtrl, y de esta forma se pueden utilizar todos los métodos de este, es decir, la gestión o CRUD sobre el empleado.
 
-    p.mt-3(data-aos="fade-up") En ese sentido, se observa que el objeto router llama a cada uno de los métodos por defecto de petición HTTP como GET, POST, PUT, entre otros, asociados a los métodos realizados con el controlador. De manera que se tienen rutas mucho más limpias y apoyadas con la buena práctica del uso del controlador.
+    p.mt-3(data-aos="fade-up") En ese sentido, se observa que el objeto router llama a cada uno de los métodos por defecto de petición #[em HTTP] como #[em GET, POST, PUT,] entre otros, asociados a los métodos realizados con el controlador. De manera que se tienen rutas mucho más limpias y apoyadas con la buena práctica del uso del controlador.
 
     br
     .mt-5.titulo-segundo#t_1_7
@@ -419,7 +419,7 @@
 
     p(data-aos="fade-up") Una vez finalizada la construcción tanto del modelo, controlador y rutas, se dispone a generar las pruebas respectivas para evaluar el funcionamiento de la API REST; por lo tanto, se utilizará la herramienta Postman. En la sección material complementario de este documento encontrará la guía para su instalación.
 
-    p.mt-3(data-aos="fade-up") Se inicia insertando datos, por lo que utilizará el método POST, el cual llamará a la ruta para crear empleados.
+    p.mt-3(data-aos="fade-up") Se inicia insertando datos, por lo que utilizará el método #[em POST], el cual llamará a la ruta para crear empleados.
 
     p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 17] #[em Pruebas con Postman]
 
@@ -428,7 +428,7 @@
 
     figcaption.mt-3.col-md-4(data-aos="fade-up") Nota. Parámetros y respuesta usando Postman.
 
-    p.mt-5(data-aos="fade-up") En la figura anterior se pueden apreciar los datos que se envían al servidor, dado que Postman permite realizar esa emulación del cliente. Los datos que se envían están acordes al esquema definido en el modelo de empleado.js, como lo son name, position, office y salary. La respuesta en consola, que se programa como status es que el Empleado ha sido guardado.
+    p.mt-5(data-aos="fade-up") En la figura anterior se pueden apreciar los datos que se envían al servidor, dado que Postman permite realizar esa emulación del cliente. Los datos que se envían están acordes al esquema definido en el modelo de empleado.js, como lo son #[em name, position, office y salary]. La respuesta en consola, que se programa como #[em status] es que el Empleado ha sido guardado.
 
     p.mt-3(data-aos="fade-up") En este orden de ideas, es necesario revisar la base de datos y verificar que efectivamente se ha guardado la información y si realmente MongoDB la ha creado.
 
@@ -450,7 +450,7 @@
 
     figcaption.mt-3.col-md-6(data-aos="fade-up") Nota. Verificación en MongoDB de información guardada.
 
-    p.mt-5(data-aos="fade-up") Como es evidente la API REST funciona correctamente, se ha creado la base de datos empleado y se tiene almacenado el primer registro del empleado Santiago. De igual forma, se evidencia para los demás métodos  HTTP, GET, PUT o DELETE que también funcionan, por lo cual se realiza la invitación a probar el API con Postman.
+    p.mt-5(data-aos="fade-up") Como es evidente la API REST funciona correctamente, se ha creado la base de datos empleado y se tiene almacenado el primer registro del empleado Santiago. De igual forma, se evidencia para los demás métodos  #[em HTTP, GET, PUT o DELETE] que también funcionan, por lo cual se realiza la invitación a probar el API con Postman.
 
     p.mt-3(data-aos="fade-up") Hasta este punto se ha realizado el desarrollo del Backend, por lo que hasta el momento se tiene la base de datos lista para poder generar ahora la construcción del Front-end, el cual será el que “dialogará” con el servidor. De esta forma se presenta a continuación una figura que ilustra la estructura general del proyecto.
 

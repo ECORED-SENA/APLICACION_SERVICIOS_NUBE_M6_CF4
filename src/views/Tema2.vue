@@ -14,7 +14,7 @@
             img.imagen_flotante_animada(src="@/assets/curso/tema2/1.svg")
         .col-lg-8
           .bloque-texto-a__texto.p-4.caja_escalada_hover
-            p Para esta sección se plantea generar una sola vista, la cual corresponde al formulario de registro de empleados, por esta razón no es necesario generar sketch o maquetación para evaluar la novación entre distintos componentes. No obstante, se emplean buenas prácticas de diseño amparadas en las técnicas y tecnologías como Materialize, que dará alcance a varias reglas de estilo para los sistemas interactivos de software.
+            p Para esta sección se plantea generar una sola vista, la cual corresponde al formulario de registro de empleados, por esta razón no es necesario generar #[em sketch] o maquetación para evaluar la novación entre distintos componentes. No obstante, se emplean buenas prácticas de diseño amparadas en las técnicas y tecnologías como Materialize, que dará alcance a varias reglas de estilo para los sistemas interactivos de #[em software].
 
     p.mt-5(data-aos="fade-up") En la siguiente figura se muestra una representación gráfica de ejemplo de un Front-end.
 
@@ -60,7 +60,7 @@
 
     p.mt-5(data-aos="fade-up") Es importante recordar que para ingresar por la terminal a la carpeta de Front-end se hace con el comando cd, es decir, #[strong cd Frontend/]
 
-    p.mt-3(data-aos="fade-up") Una vez dentro de la carpeta #[strong Front-end] se ejecuta el comando #[strong ng serve], por lo que ejecuta un servidor de desarrollo para Angular. En ese sentido, el servidor se inicializa en el puerto 4200 (http://localhost:4200/), como se muestra en la siguiente figura:
+    p.mt-3(data-aos="fade-up") Una vez dentro de la carpeta #[strong Front-end] se ejecuta el comando #[strong #[em ng serve]], por lo que ejecuta un servidor de desarrollo para Angular. En ese sentido, el servidor se inicializa en el puerto 4200 (http://localhost:4200/), como se muestra en la siguiente figura:
 
     p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 24] #[em Estado servidor Front-end]
 
@@ -72,9 +72,9 @@
     .mt-5.titulo-segundo#t_2_2
       h2 2.2 Generación de código con ng
 
-    p(data-aos="fade-up") Después de iniciado el servidor  Angular, se revisa la estructura de directorios de este framework, que, aunque son muchos archivos, únicamente es necesario concentrarse en la carpeta que se encuentra en la ruta frontend/src/app, de esta forma en la carpeta app se realizará todo el código que se necesita para el proyecto. 
+    p(data-aos="fade-up") Después de iniciado el servidor  Angular, se revisa la estructura de directorios de este #[em framework], que, aunque son muchos archivos, únicamente es necesario concentrarse en la carpeta que se encuentra en la ruta frontend/src/app, de esta forma en la carpeta app se realizará todo el código que se necesita para el proyecto. 
 
-    p.mt-3(data-aos="fade-up") De manera adicional, para dar coherencia al proyecto, dentro de la carpeta app se crean 3 carpetas más, que son models, services y components para tener definido el proyecto, tal como se muestra en la siguiente figura:
+    p.mt-3(data-aos="fade-up") De manera adicional, para dar coherencia al proyecto, dentro de la carpeta app se crean 3 carpetas más, que son #[em models, services y components] para tener definido el proyecto, tal como se muestra en la siguiente figura:
 
     p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 25] #[em Estructura de directorios]
 
@@ -82,27 +82,27 @@
       img.image_floating(data-aos="fade-right" src="@/assets/curso/tema2/6.svg")
     figcaption.mt-3.col-md-3(data-aos="fade-up") Nota. Proyecto Front-end.
 
-    p.mt-5(data-aos="fade-up") Haciendo uso de una de las características del framework se genera el código ingresando a las carpetas que se acaban de crear y en cada una se ejecutan las siguientes líneas de código respectivamente:
+    p.mt-5(data-aos="fade-up") Haciendo uso de una de las características del #[em framework] se genera el código ingresando a las carpetas que se acaban de crear y en cada una se ejecutan las siguientes líneas de código respectivamente:
 
     .cajon.color-acento-botones.p-5.mt-5.caja_flotante_rosada
       ul.lista-ul.lista__1
         li(data-aos="fade-up")
           i.fas.fa-check
-          |  Dentro la carpeta components se genera un componente llamado empleados con Angular CLI:
+          |  Dentro la carpeta #[em components] se genera un componente llamado empleados con Angular CLI:
         li
           p.mt-4
             span.h4.p-3.text-white.text-center(data-aos="fade-up" style="background-color:#21214B;border-radius:10px;") ng g c empleados
 
         li.mt-4(data-aos="fade-up")
           i.fas.fa-check
-          |  Dentro la carpeta models se crea la clase empleado con:
+          |  Dentro la carpeta #[em models] se crea la clase empleado con:
         li
           p.mt-4
             span.h4.p-3.text-white.text-center(data-aos="fade-up" style="background-color:#21214B;border-radius:10px;") ng g class empleado
 
         li.mt-4(data-aos="fade-up")
           i.fas.fa-check
-          |  Dentro de la carpeta services se crea un servicio llamado empleado con la siguiente línea:
+          |  Dentro de la carpeta #[em services] se crea un servicio llamado empleado con la siguiente línea:
         li
           p.mt-4
             span.h4.p-3.text-white.text-center(data-aos="fade-up" style="background-color:#21214B;border-radius:10px;") ng g s empleado
@@ -156,6 +156,8 @@
       p.text-white.mb-0 &lt;/html&gt;
 
     figcaption.mt-3.col-md-4(data-aos="fade-up") Nota. Código completo archivo index.html.
+
+    p.mt-5(data-aos="fade-up") De manera adicional, en la sección material complementario de este documento encontrará el enlace a la guía de uso de Materialize donde están los #[em CDN] y ejemplos sobre este framework de estilos.
 
     br
     .mt-5.titulo-segundo#t_2_4
@@ -238,7 +240,7 @@
 
     p(data-aos="fade-up") Una vez realizada la configuración en los módulos de la aplicación se inicia la construcción del modelo de la aplicación, por lo que se empieza la codificación dentro del archivo #[strong empleado.ts] cuya ruta es models/empleado.ts
 
-    p.mt-3(data-aos="fade-up") Dentro de este archivo se define la estructura de datos que está asociada a lo que describió en el Backend. En la figura que aparece a continuación, se presenta el archivo empleado.ts (puede descargar el contenido de estas instrucciones en el archivo empleado.ts disponible en la carpeta anexos).
+    p.mt-3(data-aos="fade-up") Dentro de este archivo se define la estructura de datos que está asociada a lo que describió en el Backend. En la figura que aparece a continuación, se presenta el archivo empleado.ts (puede descargar el contenido de estas instrucciones en el archivo #[em empleado.ts] disponible en la carpeta anexos).
 
     .col-md-4.mt-4(data-aos="fade-right")
         a.anexo.mb-4(:href="obtenerLink('downloads/empleado.ts')" target="_blank" download)
@@ -379,11 +381,11 @@
 
     figcaption.col-md-5.mt-3(data-aos="fade-up") Nota. Código completo archivo empleados.component.ts.
 
-    p.mt-5(data-aos="fade-up") En la figura anterior se muestra la importancia de haber creado y/o configurado con anticipación los módulos y archivos para la construcción de este componente, por lo que para el natural funcionamiento de este se hace necesario #[strong EmpleadoServices], el modelo empleado y el módulo ya definido como lo es NgForm.
+    p.mt-5(data-aos="fade-up") En la figura anterior se muestra la importancia de haber creado y/o configurado con anticipación los módulos y archivos para la construcción de este componente, por lo que para el natural funcionamiento de este se hace necesario #[strong EmpleadoServices], el modelo empleado y el módulo ya definido como lo es #[em NgForm].
 
     p.mt-3(data-aos="fade-up") Una vez se importan estos módulos se enfocan los esfuerzos en los métodos; para el caso de estudio tendrá el método de agregar empleado. Al respecto toma como parámetro la existencia de datos del formulario, al ser verdadero, se llama al método del servicio empleado (el cual ya fue construido anteriormente) #[strong PostEmpleado] y le entrega los valores para que sean llevados al servidor y que sean almacenados en la base de datos de MongoDB.
 
-    p.mt-3(data-aos="fade-up") De manera adicional, como ejemplo de este componente, se agrega un plus y es que en cada adición de datos en el formulario, este se pueda limpiar de manera automática, por lo que se incorpora una función llamada #[strong reset Form], en la cual como su nombre lo indica lo que hace es resetear o limpiar los campos del formulario a través de la función intrínseca reset().
+    p.mt-3(data-aos="fade-up") De manera adicional, como ejemplo de este componente, se agrega un plus y es que en cada adición de datos en el formulario, este se pueda limpiar de manera automática, por lo que se incorpora una función llamada #[strong #[em reset Form]], en la cual como su nombre lo indica lo que hace es resetear o limpiar los campos del formulario a través de la función intrínseca #[em reset()].
 
     p.mt-3(data-aos="fade-up") Finalmente, para mejorar la interfaz se adiciona un complemento de Materialize, Toast, que no es más que una notificación, que se utiliza para indicarle al usuario que el empleado se ha guardado de manera correcta.
 
@@ -442,7 +444,7 @@
 
     figcaption.mt-3.col-md-5(data-aos="fade-up")  Nota. Código completo archivo empleados.component.html.
 
-    p.mt-5(data-aos="fade-up") En el código anterior se muestra la estructura base de un formulario en HTML, el cual es sujeto a clases y reglas provistas por Materialize para dar una mejora de apariencia a la interfaz, de manera adicional se presentan 4 inputs en los cuales el usuario debe digitar y, al final se presentan 2 botones, uno es  de enviar y el otro de limpiar el formulario. Al respecto hay una línea de código a la que se hace mención:
+    p.mt-5(data-aos="fade-up") En el código anterior se muestra la estructura base de un formulario en HTML, el cual es sujeto a clases y reglas provistas por Materialize para dar una mejora de apariencia a la interfaz, de manera adicional se presentan 4 #[em inputs] en los cuales el usuario debe digitar y, al final se presentan 2 botones, uno es  de enviar y el otro de limpiar el formulario. Al respecto hay una línea de código a la que se hace mención:
 
     p.mt-5
       span.h4.p-3.text-white.text-center(data-aos="fade-up" style="background-color:#21214B;border-radius:10px;") &lt;form #empleadoForm=“ngForm” (ngSubmit)=“agregarEmpleado(empleadoForm)”&gt;
@@ -463,7 +465,7 @@
       img.image_floating(src="@/assets/curso/tema2/13.svg")
     figcaption.mt-4.col-md-5(data-aos="fade-up") Nota. Interfaz formulario de registro de empleados.
 
-    p.mt-5(data-aos="fade-up") En la muestra anterior de la interfaz se ilustra un formulario en el cual se le piden los datos al usuario para el registro de un empleado, es importante observar el uso de los placeholder en cada caja de texto, cuya función es guiar o indicar qué tipo de datos hay que registrar. De esta manera la interfaz quedaría como se muestra en la siguiente figura:
+    p.mt-5(data-aos="fade-up") En la muestra anterior de la interfaz se ilustra un formulario en el cual se le piden los datos al usuario para el registro de un empleado, es importante observar el uso de los #[em placeholder] en cada caja de texto, cuya función es guiar o indicar qué tipo de datos hay que registrar. De esta manera la interfaz quedaría como se muestra en la siguiente figura:
 
     p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 36] #[em Registro empleado]
 
@@ -471,7 +473,7 @@
       img.image_floating(src="@/assets/curso/tema2/14.svg")
     figcaption.mt-4.col-md-5(data-aos="fade-up") Nota. Ejemplo ingreso datos de un empleado.
 
-    p.mt-5(data-aos="fade-up") Al momento de dar clic en guardar se almacena la información y se muestra la notificación de Materialize Toast, indicando que el usuario se ha guardado exitosamente y además se limpia el formulario por la función reset(), tal como se puede observar en la figura 37.
+    p.mt-5(data-aos="fade-up") Al momento de dar clic en guardar se almacena la información y se muestra la notificación de Materialize #[em Toast], indicando que el usuario se ha guardado exitosamente y además se limpia el formulario por la función #[em reset()], tal como se puede observar en la figura 37.
 
     p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 37]  #[em Notificación Toast de Materialize]
 
@@ -495,9 +497,9 @@
 
     p.mt-5(data-aos="fade-up") En las anteriores figuras se puede evidenciar que los datos se guardan de manera correcta en la base de datos, indicando que la aplicación desde el Front-end funciona de manera idónea, así como la API REST del proyecto; con lo que se culmina este componente.
 
-    p.mt-3(data-aos="fade-up") Se espera que haya sido de aprendizaje el uso de tecnologías tanto del lado del cliente como del lado del servidor, este es uno de los ejercicios más completos y precisos que se pueden realizar en materia de esta disciplina del desarrollo web. En ese sentido, se exhorta a seguir estudiando más alternativas sobre este tipo de desarrollos que son muy demandados en la industria del software.
+    p.mt-3(data-aos="fade-up") Se espera que haya sido de aprendizaje el uso de tecnologías tanto del lado del cliente como del lado del servidor, este es uno de los ejercicios más completos y precisos que se pueden realizar en materia de esta disciplina del desarrollo web. En ese sentido, se exhorta a seguir estudiando más alternativas sobre este tipo de desarrollos que son muy demandados en la industria del #[em software].
 
-    p.mt-3(data-aos="fade-up") Finalmente, se comparte en el material de apoyo todo el proyecto web realizado desde la plataforma de Gitlab, se encuentra con el nombre de Proyecto web.
+    p.mt-3(data-aos="fade-up") Finalmente, se comparte en el material de apoyo todo el proyecto web realizado desde la plataforma de #[em Gitlab], se encuentra con el nombre de Proyecto web.
 
 </template>
 
