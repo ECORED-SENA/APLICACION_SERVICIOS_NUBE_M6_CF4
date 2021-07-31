@@ -200,7 +200,7 @@
     .mt-5.titulo-segundo#t_1_4
       h2 1.4 Configuración de database.js
 
-    p(data-aos="fade-up") Con todas las herramientas necesarias para la conexión de la aplicación a la base de datos se empieza a desarrollar y a configurar sobre el archivo database.js. (Puede descargar el contenido de estas instrucciones en el archivo database.js disponible en la carpeta anexos).
+    p(data-aos="fade-up") Con todas las herramientas necesarias para la conexión de la aplicación a la base de datos se empieza a desarrollar y a configurar sobre el archivo database.js. (Puede descargar el contenido de estas instrucciones en el archivo database.js disponible en la carpeta de anexos).
 
     .col-md-4.mt-4(data-aos="fade-right")
         a.anexo.mb-4(:href="obtenerLink('downloads/database.js')" target="_blank" download)
@@ -239,7 +239,7 @@
     .mt-5.titulo-segundo#t_1_5
       h2 1.5 Configuración de las rutas del proyecto con Node.js
 
-    p(data-aos="fade-up") El siguiente paso es configurar las rutas o URL por donde se van a enviar o recibir los datos, por lo que se crea un archivo llamado empleado.route.js dentro de la carpeta #[em routes] (puede descargar el contenido de estas instrucciones en el archivo empleado.route.js disponible en la carpeta anexos). En este primer apartado lo que se quiere es revisar en primera instancia es el funcionamiento de las rutas, por lo que a manera de prueba se tiene el código que se muestra en la siguiente figura:
+    p(data-aos="fade-up") El siguiente paso es configurar las rutas o URL por donde se van a enviar o recibir los datos, por lo que se crea un archivo llamado empleado.route.js dentro de la carpeta #[em routes] (puede descargar el contenido de estas instrucciones en el archivo empleado.route.js disponible en la carpeta de anexos). En este primer apartado lo que se quiere es revisar en primera instancia es el funcionamiento de las rutas, por lo que a manera de prueba se tiene el código que se muestra en la siguiente figura:
 
     .col-md-4.mt-4(data-aos="fade-right")
         a.anexo.mb-4(:href="obtenerLink('downloads/empleado.route.js')" target="_blank" download)
@@ -285,7 +285,7 @@
 
     figcaption.mt-4.col-md-3(data-aos="fade-left")  Nota. Vista desde un navegador.
 
-    p.mt-5(data-aos="fade-up") Ya visto un ejemplo del funcionamiento de las rutas es necesario comprender su comportamiento, por lo que cada solicitud debe ir asociada a una ruta, y esta a su vez a un intercambio de información o de datos, es decir, de interacción con la BD. En ese sentido, es más que necesario la construcción del modelo empleado.js con datos específicos para los empleados dentro de la carpeta #[em models] (puede descargar el contenido de estas instrucciones en el archivo empleado.js disponible en la carpeta anexos).
+    p.mt-5(data-aos="fade-up") Ya visto un ejemplo del funcionamiento de las rutas es necesario comprender su comportamiento, por lo que cada solicitud debe ir asociada a una ruta, y esta a su vez a un intercambio de información o de datos, es decir, de interacción con la BD. En ese sentido, es más que necesario la construcción del modelo empleado.js con datos específicos para los empleados dentro de la carpeta #[em models] (puede descargar el contenido de estas instrucciones en el archivo empleado.js disponible en la carpeta de anexos).
 
     .col-md-4.mt-4(data-aos="fade-right")
         a.anexo.mb-4(:href="obtenerLink('downloads/empleado.js')" target="_blank" download)
@@ -316,7 +316,7 @@
     .mt-5.titulo-segundo#t_1_6
       h2 1.6 Desarrollo de controladores para la API REST
 
-    p(data-aos="fade-up") Una de las mejores prácticas para estructurar una aplicación cuando va en crecimiento es el uso de los controladores. Estos se encargan de definir los métodos y acciones que necesitan las rutas. Por lo tanto, se crea el archivo empleado.controller.js dentro de la carpeta #[em controllers] (puede descargar el contenido de estas instrucciones en el archivo empleado.controller.js disponible en la carpeta anexos).
+    p(data-aos="fade-up") Una de las mejores prácticas para estructurar una aplicación cuando va en crecimiento es el uso de los controladores. Estos se encargan de definir los métodos y acciones que necesitan las rutas. Por lo tanto, se crea el archivo empleado.controller.js dentro de la carpeta #[em controllers] (puede descargar el contenido de estas instrucciones en el archivo empleado.controller.js disponible en la carpeta de anexos).
 
     .col-md-4.mt-4(data-aos="fade-right")
         a.anexo.mb-4(:href="obtenerLink('downloads/empleado.controller.js')" target="_blank" download)
@@ -388,7 +388,7 @@
 
       p.mt-3(data-aos="fade-up") Para el método de editar empleado presenta una sintaxis interesante, en primer lugar se escribe de otra forma para capturar el id del usuario que se quiere actualizar { id }, además crea una constante #[strong empleadoEdit] para pasarle los datos traídos del cliente y finalmente se utiliza #[em await], para dar una espera en la acción de encontrar por id y actualizar a través de la función set, que se utilizará para modificar los datos en última instancia.
 
-      p.mt-3(data-aos="fade-up") Finalmente, lo que se hace al crear un módulo es exportarlo para que sea utilizado en cualquier parte de la aplicación. A continuación, se definen las rutas, por lo que se configura y desarrolla la lógica de esta sección en el archivo empleados.routes.js dentro de la carpeta #[em routes] (puede descargar el contenido de estas instrucciones en el archivo empleados.routes.js disponible en la carpeta anexos).
+      p.mt-3(data-aos="fade-up") Finalmente, lo que se hace al crear un módulo es exportarlo para que sea utilizado en cualquier parte de la aplicación. A continuación, se definen las rutas, por lo que se configura y desarrolla la lógica de esta sección en el archivo empleados.routes.js dentro de la carpeta #[em routes] (puede descargar el contenido de estas instrucciones en el archivo empleados.routes.js disponible en la carpeta de anexos).
 
     p.mt-5(data-aos="fade-up" style="padding-left: 12px;border-left:4px #4DD0E1 solid;") #[strong Figura 16] #[em Código de la ruta empleado]
 

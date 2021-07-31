@@ -87,22 +87,19 @@
     .cajon.color-acento-botones.p-5.mt-5.caja_flotante_rosada
       ul.lista-ul.lista__1
         li(data-aos="fade-up")
-          i.fas.fa-check
-          |  Dentro la carpeta #[em components] se genera un componente llamado empleados con Angular CLI:
+          p #[i.fas.fa-check] Dentro la carpeta #[em components ] se genera un componente llamado empleados con Angular CLI:
         li
           p.mt-4
             span.h4.p-3.text-white.text-center(data-aos="fade-up" style="background-color:#21214B;border-radius:10px;") ng g c empleados
 
         li.mt-4(data-aos="fade-up")
-          i.fas.fa-check
-          |  Dentro la carpeta #[em models] se crea la clase empleado con:
+          p #[i.fas.fa-check] Dentro la carpeta #[em models ] se crea la clase empleado con:
         li
           p.mt-4
             span.h4.p-3.text-white.text-center(data-aos="fade-up" style="background-color:#21214B;border-radius:10px;") ng g class empleado
 
         li.mt-4(data-aos="fade-up")
-          i.fas.fa-check
-          |  Dentro de la carpeta #[em services] se crea un servicio llamado empleado con la siguiente línea:
+          p #[i.fas.fa-check] Dentro de la carpeta #[em services ] se crea un servicio llamado empleado con la siguiente línea:
         li
           p.mt-4
             span.h4.p-3.text-white.text-center(data-aos="fade-up" style="background-color:#21214B;border-radius:10px;") ng g s empleado
@@ -125,7 +122,7 @@
     .mt-5.titulo-segundo#t_2_3
       h2 2.3 Incorporación de Materialize al proyecto web
 
-    p(data-aos="fade-up") Se incorpora Materialize al proyecto por medio de la inclusión de los CDN (red de distribución de contenidos) de hojas de estilos, JavaScript e iconos en el documento index.html del Front-end, por lo que la ruta al archivo es FrontEnd/src/index.html (puede descargar el contenido de estas instrucciones en el archivo index.html disponible en la carpeta anexos). En la figura 28 puede ver este proceso.
+    p(data-aos="fade-up") Se incorpora Materialize al proyecto por medio de la inclusión de los CDN (red de distribución de contenidos) de hojas de estilos, JavaScript e iconos en el documento index.html del Front-end, por lo que la ruta al archivo es FrontEnd/src/index.html (puede descargar el contenido de estas instrucciones en el archivo index.html disponible en la carpeta de anexos). En la figura 28 puede ver este proceso.
 
     .col-md-4.mt-4(data-aos="fade-right")
         a.anexo.mb-4(:href="obtenerLink('downloads/index.html')" target="_blank" download)
@@ -163,7 +160,7 @@
     .mt-5.titulo-segundo#t_2_4
       h2 2.4 Configuración de app.component.html
 
-    p(data-aos="fade-up") Ahora se inicia con la modificación del archivo app.component.html, dado que en este archivo se llaman los componentes de la aplicación que para el caso de estudio propuesto se denomina empleados. Este cambio se ilustra a continuación (puede descargar el contenido de estas instrucciones en el archivo app.component.html disponible en la carpeta anexos):
+    p(data-aos="fade-up") Ahora se inicia con la modificación del archivo app.component.html, dado que en este archivo se llaman los componentes de la aplicación que para el caso de estudio propuesto se denomina empleados. Este cambio se ilustra a continuación (puede descargar el contenido de estas instrucciones en el archivo app.component.html disponible en la carpeta de anexos):
 
     .col-md-4.mt-4(data-aos="fade-right")
         a.anexo.mb-4(:href="obtenerLink('downloads/app.component.html')" target="_blank" download)
@@ -195,7 +192,7 @@
 
     p(data-aos="fade-up") A continuación, se configura uno de los archivos más importantes del proyecto, y es por el cual se cargan los módulos de la aplicación, por ello, es necesario entender la naturaleza de la aplicación que se está desarrollando, porque así se definirán qué módulos son necesarios para el óptimo funcionamiento de la aplicación.
 
-    p.mt-3(data-aos="fade-up") La aplicación caso de estudio será la adición de empleados utilizando un API REST, por lo que es evidente el uso de un formulario en la interfaz y además de la comunicación que debe tener el Front-end con el servidor. Por lo tanto, se cargan los módulos de formularios y de cliente HTTP en el archivo app.modules.ts (puede descargar el contenido de estas instrucciones en el archivo app.module.ts disponible en la carpeta anexos), este proceso se muestra en la siguiente figura.
+    p.mt-3(data-aos="fade-up") La aplicación caso de estudio será la adición de empleados utilizando un API REST, por lo que es evidente el uso de un formulario en la interfaz y además de la comunicación que debe tener el Front-end con el servidor. Por lo tanto, se cargan los módulos de formularios y de cliente HTTP en el archivo app.modules.ts (puede descargar el contenido de estas instrucciones en el archivo app.module.ts disponible en la carpeta de anexos), este proceso se muestra en la siguiente figura.
 
     .col-md-4.mt-4(data-aos="fade-right")
         a.anexo.mb-4(:href="obtenerLink('downloads/app.modules.ts')" target="_blank" download)
@@ -240,7 +237,7 @@
 
     p(data-aos="fade-up") Una vez realizada la configuración en los módulos de la aplicación se inicia la construcción del modelo de la aplicación, por lo que se empieza la codificación dentro del archivo #[strong empleado.ts] cuya ruta es models/empleado.ts
 
-    p.mt-3(data-aos="fade-up") Dentro de este archivo se define la estructura de datos que está asociada a lo que describió en el Backend. En la figura que aparece a continuación, se presenta el archivo empleado.ts (puede descargar el contenido de estas instrucciones en el archivo #[em empleado.ts] disponible en la carpeta anexos).
+    p.mt-3(data-aos="fade-up") Dentro de este archivo se define la estructura de datos que está asociada a lo que describió en el Backend. En la figura que aparece a continuación, se presenta el archivo empleado.ts (puede descargar el contenido de estas instrucciones en el archivo #[em empleado.ts] disponible en la carpeta de anexos).
 
     .col-md-4.mt-4(data-aos="fade-right")
         a.anexo.mb-4(:href="obtenerLink('downloads/empleado.ts')" target="_blank" download)
@@ -278,7 +275,7 @@
 
     p(data-aos="fade-up") El objetivo general de este lado del proyecto es agregar esos datos ya definidos a la REST API, y se enfocan los esfuerzos a generar ese servicio, por lo que ahora se desarrollará el archivo empleado.service.ts. El servicio permite definir tan solo los métodos que pueden ser reutilizados en cualquier parte de la aplicación, en este caso son funciones que van a acceder para hacer la gestión sobre los datos como agregar, eliminar, editar, entre otros.
 
-    p.mt-3(data-aos="fade-up") A continuación, se enseña el código del archivo empleado.service.ts (puede descargar el contenido de estas instrucciones en el archivo empleado.service.ts disponible en la carpeta anexos):
+    p.mt-3(data-aos="fade-up") A continuación, se enseña el código del archivo empleado.service.ts (puede descargar el contenido de estas instrucciones en el archivo empleado.service.ts disponible en la carpeta de anexos):
 
     .col-md-4.mt-4(data-aos="fade-right")
         a.anexo.mb-4(:href="obtenerLink('downloads/empleado.service.ts')" target="_blank" download)
@@ -336,7 +333,7 @@
     .mt-5.titulo-segundo#t_2_8
       h2 2.8 Desarrollo del componente empleados.components.ts
 
-    p(data-aos="fade-up") Ya definidos los servicios es necesario abordar la lógica del componente, por lo que ahora se debe enfocar los esfuerzos en el archivo empleados.components.ts, por lo que el archivo en mención se presenta a continuación (puede descargar el contenido de estas instrucciones en el archivo empleados.components.ts disponible en la carpeta anexos):
+    p(data-aos="fade-up") Ya definidos los servicios es necesario abordar la lógica del componente, por lo que ahora se debe enfocar los esfuerzos en el archivo empleados.components.ts, por lo que el archivo en mención se presenta a continuación (puede descargar el contenido de estas instrucciones en el archivo empleados.components.ts disponible en la carpeta de anexos):
 
     .col-md-4.mt-4(data-aos="fade-right")
         a.anexo.mb-4(:href="obtenerLink('downloads/empleados.components.ts')" target="_blank" download)
@@ -393,7 +390,7 @@
     .mt-5.titulo-segundo#t_2_9
       h2 2.9 Desarrollo de la interfaz HTML empleados.component.html
 
-    p(data-aos="fade-up") Después de definir la lógica del componente empleado lo único que hace falta es la construcción del formulario, por lo que se apunta ahora al desarrollo del archivo empleados.component.html que se muestra a continuación (puede descargar el contenido de estas instrucciones en el archivo empleados.component.html disponible en la carpeta anexos):
+    p(data-aos="fade-up") Después de definir la lógica del componente empleado lo único que hace falta es la construcción del formulario, por lo que se apunta ahora al desarrollo del archivo empleados.component.html que se muestra a continuación (puede descargar el contenido de estas instrucciones en el archivo empleados.component.html disponible en la carpeta de anexos):
 
     .col-md-4.mt-4(data-aos="fade-right")
         a.anexo.mb-4(:href="obtenerLink('downloads/empleados.component.html')" target="_blank" download)
