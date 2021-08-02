@@ -270,21 +270,20 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Henry Eduardo Bastidas Paruma',
+        nombre: 'Santiago Muñoz de la Rosa',
         cargo: 'Experto temático',
         centro:
-          'Centro de teleinformática y producción industrial - Regional Cauca',
+          'Centro de Teleinformática y Producción Industrial - Regional Cauca',
       },
       {
-        nombre: 'Peter Emerson Pinchao Solís',
-        cargo: 'Experto temático',
-        centro:
-          'Centro de teleinformática y producción industrial - Regional Cauca',
-      },
-      {
-        nombre: 'Oscar Absalón Guevara',
+        nombre: 'Gustavo Santis Mancipe',
         cargo: 'Diseñador instruccional',
-        centro: 'Centro de Gestión Industrial',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Alix Cecilia Chinchilla Rueda',
+        cargo: 'Evaluadora instruccional',
+        centro: 'Centro de Gestión Industrial ',
       },
       {
         nombre: 'Julia Isabel Roberto',
@@ -318,7 +317,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Yuli Marcela Gómez Tarazona',
+        nombre: 'Magdi Khalifah Gamba ',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

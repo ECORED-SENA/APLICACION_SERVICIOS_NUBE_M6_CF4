@@ -154,7 +154,7 @@
 
     figcaption.mt-3.col-md-4(data-aos="fade-up") Nota. Código completo archivo index.html.
 
-    p.mt-5(data-aos="fade-up") De manera adicional, en la sección material complementario de este documento encontrará el enlace a la guía de uso de Materialize donde están los #[em CDN] y ejemplos sobre este framework de estilos.
+    p.mt-5(data-aos="fade-up") De manera adicional, en la sección material complementario de este documento encontrará el enlace a la guía de uso de Materialize donde están los #[em CDN] y ejemplos sobre este #[em framework] de estilos.
 
     br
     .mt-5.titulo-segundo#t_2_4
